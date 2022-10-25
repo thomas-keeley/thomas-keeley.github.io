@@ -1,0 +1,19 @@
+/* CSS HEX */
+:root{
+--dark-sienna: #482728ff;
+--twilight-lavender: #7e4e60ff;
+--opera-mauve: #b287a3ff;
+--aero-blue: #c0f8d1ff;
+--laurel-green: #bdcfb5ff;
+}
+
+body{
+    background-color: var(--dark-sienna);
+    color: var(--twilight-lavender);
+}
+a{
+    background-color: var(--opera-mauve);
+    color: var(--aero-blue);
+    border-style: solid;
+    border-color: whitesmoke;
+}
