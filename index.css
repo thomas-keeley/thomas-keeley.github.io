@@ -1,24 +1,48 @@
-/* CSS HEX */
-:root{
---dark-sienna: #482728ff;
---twilight-lavender: #7e4e60ff;
---opera-mauve: #b287a3ff;
---aero-blue: #c0f8d1ff;
---laurel-green: #bdcfb5ff;
+.img-div{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 200, 200);
+    padding: 20px 20px;
+    margin: auto;
+    border: 1px solid rgb(188, 174, 174);
+    
+    }
+#img-div{
+
 }
 
-body{
-    background-color: var(--dark-sienna);
-    color: var(--twilight-lavender);
+img{
+    object-fit: cover;
 }
-a{
-    background-color: var(--opera-mauve);
-    color: var(--aero-blue);
-    border-style: solid;
-    border-color: whitesmoke;
+
+main{
+    margin: 1%;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(223, 209, 191);
+    padding: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
-ul{
-    list-style-type: none;
-    margin: none;
-    padding: 2 px;
+
+.container{
+    justify-content: center;
+    /* background-color: white; */
+    margin: 0 33%;
+    padding: 10px;;
+
+
+}
+
+.info{
+    /* max-width: 80%;
+    min-width: 20%; */
+    justify-content: center;
+    text-align: left;
+}
+
+big{
+    font-size: 32px;
 }
