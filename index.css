@@ -17,3 +17,8 @@ a{
     border-style: solid;
     border-color: whitesmoke;
 }
+ul{
+    list-style-type: none;
+    margin: none;
+    padding: 2 px;
+}
