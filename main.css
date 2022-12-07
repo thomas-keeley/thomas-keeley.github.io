@@ -1,0 +1,165 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.main-logo{
+    width: 100%;
+    /* aspect-ratio: 4 / 4; */
+    height: 100%;
+    border-radius: 40%;
+    border: 1px solid whitesmoke;
+}
+
+.imageholder{
+    width: 4%;
+    min-width: 50px;
+    /* background-color: white; */
+    padding: 0.1rem;
+    margin: .5rem;
+    
+    
+}
+li:hover {
+    border: 1px solid white;
+    background-color: #F7D4BC;
+    cursor: pointer;
+  }
+
+#navMenu{
+    background-color: rgb(223, 159, 170);
+    /* font-size: medium; */
+    /* gap: 10%; */
+    display: inline-flex;
+    justify-content: left;
+    white-space: nowrap;
+    padding: 5px 0 5px 2rem;
+    position: relative;
+    
+
+
+
+
+}
+
+ul{
+    display: inline-block;
+    justify-content: space-evenly;
+    margin-top: 3rem ;
+    align-items: center;
+    margin-left: 5rem;
+}
+
+li{
+   list-style: none; 
+
+   width: 6%;
+   height: 3%;
+   display: inline;
+   font-size: larger;
+   padding: 0.8rem;
+   margin: 0 1%;
+   overflow: hidden;
+   
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    margin: 0 2%;
+}
+
+main {
+    padding-top: 30px;
+  }
+h1{
+    text-align: center;
+}
+/* For Main */
+.bodymain{
+    background-image: url(https://d375139ucebi94.cloudfront.net/region2/pl/113950/biz_photo/4bdd59ae675f4e0ebf8e5e575e3749-brows-spot-biz-photo-f35d894a3ef644318d6f4a1981d7a9-booksy.jpeg?size=640x427);
+
+}
+/* For About Me */
+ .bodyabout{
+background-image: url(https://d375139ucebi94.cloudfront.net/region2/pl/113950/biz_photo/eb7b092d2a084521bc5d1d6e0a280c-brows-spot-biz-photo-85b1687bbd974cac95f7a96e03eb1f-booksy.jpeg?size=640x427);
+ }
+
+ .aboutscale{
+    /* background-color: whitesmoke;
+    width: 50%; */
+        margin-top: 2rem;
+        width: 43%;
+        background-color: whitesmoke;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        max-width: 900px;
+        overflow: hidden;
+        border: 1px solid pink;
+      
+}
+.bio-pic{
+    width: 200px;
+}
+.bio{
+    display: block;
+}
+
+/* For Price & Packages */
+.bodyprice{
+    background-image: url(https://d375139ucebi94.cloudfront.net/region2/pl/113950/biz_photo/f3e57aa6811741e7ac505ff2accfb5-brows-spot-biz-photo-c95a8693d5584aafb8d4482b1648af-booksy.jpeg?size=640x427);
+}
+
+.whitescale{
+    /* background-color: whitesmoke;
+    width: 50%; */
+        margin-top: 2rem;
+        width: 43%;
+        background-color: whitesmoke;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        max-width: 900px;
+        overflow: hidden;
+      
+}
+
+.price-table {
+    display: block;
+    justify-content: center;
+}
+td{
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+table{
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+caption{
+    margin: 7px;
+}
+th{
+    border-bottom: 1px solid grey;
+}
+
+tbody{
+    border-bottom: 2px solid grey;
+}
+/* For Contact & Location */
+.bodycontact{
+    background-image: url(https://investmap.pl/_i/gallery/212/84/436180_300x200.jpeg);
+}
+.sandscale{
+    /* background-color: whitesmoke;
+    width: 50%; */
+        margin-top: 2rem;
+        width: 43%;
+        background-color: #F7D4BC;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+        max-width: 900px;
+        overflow: hidden;
+      
+}
